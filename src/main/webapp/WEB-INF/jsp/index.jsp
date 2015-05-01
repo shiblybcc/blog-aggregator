@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-hello ...
+hello ...from jsp folder
 </body>
 </html>
