@@ -8,8 +8,27 @@
 	</definition>
 
 	<definition name="index" extends="common">
-		<put-attribute name="title" value="Java Blog Aggregator" />
+		<put-attribute name="title" value="List of Courses" />
 		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+		<put-attribute name="current" value="index"></put-attribute>
+	</definition>
+
+	<definition name="course-detail" extends="common">
+		<put-attribute name="title" value="Course detail" />
+		<put-attribute name="body" value="/WEB-INF/jsp/course-detail.jsp" />
+		<put-attribute name="current" value="index"></put-attribute>
+	</definition>
+
+	<definition name="rating" extends="common">
+		<put-attribute name="title" value="Rating" />
+		<put-attribute name="body" value="/WEB-INF/jsp/rating.jsp" />
+		<put-attribute name="current" value="rating"></put-attribute>
+	</definition>
+
+	<definition name="signin" extends="common">
+		<put-attribute name="title" value="Signin" />
+		<put-attribute name="body" value="/WEB-INF/jsp/signin.jsp" />
+		<put-attribute name="current" value="signin"></put-attribute>
 	</definition>
 
 </tiles-definitions>
